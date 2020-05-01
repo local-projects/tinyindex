@@ -9,4 +9,4 @@
     :license: MIT, see LICENSE for more details
 """
 
-from tinyindex.index import Index
+from .index import Index

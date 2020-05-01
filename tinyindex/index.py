@@ -32,3 +32,6 @@ class Index(object):
 
     def __getitem__(self, idx):
         return self.ranked()[idx]
+
+    def __len__(self):
+         return len(self.table)
